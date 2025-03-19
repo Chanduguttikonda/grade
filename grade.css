@@ -1,0 +1,68 @@
+/*styles of css*/
+ input{
+
+    border-bottom:2px solid black;
+    background:none;
+    color:black;
+    outline:none;
+    font-size: medium;
+ }
+ .red{
+    color:red;
+ }
+ div{
+    width:auto;
+    height:auto;
+    border-radius: 20px;
+    padding:10px;
+    margin:10px;
+    background-color: aqua;
+ }
+ button{
+    width:100px;
+    height:35px;
+    border:none;
+    color:black;
+    cursor: pointer;
+    background-color: green;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-family:arial,sans-serif;
+}
+    body{
+        font-family:Arial,sans-serif;
+        background-color:#f4f4f4;
+        margin:0;
+        padding:20px;
+        text-align: center;
+    }
+    label{
+       /* display:inline-block;*/
+        margin-top:10px;
+        margin-bottom: 5px;
+    }
+    input[type="text"]{
+        width:200px;
+        margin:5px 0 20px;
+        border-radius:4px;
+        border:1px solid #ccc;
+        padding:8px;
+    }
+    h3{
+        color:#555;
+    }
+    h2{
+        color:#333;
+        text-align:center;
+    }
+    button:hover{
+        background-color: #45a049;
+    }
+    output{
+        display:block;
+        margin-top:10px;
+        font-weight:bold;
+    }
+    p{
+        margin:0;
+    }

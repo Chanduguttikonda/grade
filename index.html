@@ -1,0 +1,41 @@
+<!--finding the student grade-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> RESULTS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="grade.css">
+        <link rel="icon" href="D:\photos\chandu\photo.png">
+
+ </head>
+    <body>
+            <h2> MARKS SHEET </h2>
+            <label for="rno">R.no</label>
+            <input type="text" id="rno" placeholder="Roll no"><br>
+            <p><label for="fna">Name</label>
+                <input type="text" id="fna" placeholder="Name"></p>
+                <h3> marks </h3>
+            <p>
+                <label for="html">Html</label> 
+                <input type="text" id="html">
+            </p>
+        <label for="css">Css</label>
+            <input type="text" id="css"><br>
+            <p>
+            <label for="js">java</label>
+            <input type="text" id="js"></p>
+        <label for="bs">bscp</label>
+            <input type="text" id="bs">
+        <p>
+            <button onclick="getResult()">Get result</button>
+        </p>
+        <p>
+            <output class="red" id="total"> </output>
+            <output class="red" id="average"></output>
+            <output class="red" id="grade"></output>
+        </p>
+        <script src="grade.js"></script>
+            
+
+    </body>
+</html>
